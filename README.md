@@ -1,8 +1,16 @@
 # Quizzler
 
-Tr?c nghi?m ??ng/Sai, ch?m ?i?m v? t? b?t ??u l??t m?i.
+Ứng dụng trắc nghiệm Đúng/Sai với danh sách câu hỏi tiếng Việt.
 
-D? ?n Flutter ??c l?p, d?ng Flutter 3.38.6 / Dart 3.10.7.
+Dự án Flutter độc lập, dùng Flutter 3.38.6 / Dart 3.10.7.
+
+## Chức năng
+
+- Class Question lưu nội dung và đáp án.
+- Chấm điểm, hiển thị biểu tượng đúng/sai trong scoreKeeper.
+- Chuyển câu hỏi và tự đặt lại điểm khi hoàn thành lượt chơi.
+
+## Chạy và kiểm tra
 
 ```powershell
 flutter pub get
@@ -11,4 +19,5 @@ flutter test
 flutter run -d chrome
 ```
 
-T?i nguy?n c?n thi?t ?? c? s?n trong d? ?n. ?? ki?m tra b?ng Flutter 3.38.6 / Dart 3.10.7: analyze, unit/widget test v? build web.
+Tài nguyên cần thiết đã có sẵn trong dự án. Đã kiểm tra bằng analyze, unit/widget test và build web.
+

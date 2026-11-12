@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'question.dart';
 
+// Flutter application entry point.
 void main() => runApp(const QuizzlerApp());
 
 class QuizzlerApp extends StatelessWidget {
